@@ -12,7 +12,6 @@ The error was the float missing the letter "f", making unity cannot convert it i
 
 ### W3
 Activity 1:
-
 #1 The parameter should be a float and a bool. The return type should be a string.
 
 #2 The parameter should be a float between 0 and 100. The return type should be void.
