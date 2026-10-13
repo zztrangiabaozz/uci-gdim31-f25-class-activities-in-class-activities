@@ -15,8 +15,7 @@ Write your W1 activity Devlog here.
 3) The parameter should be float. The return type should be bool.
 
 #### Activity 2: 
-
-
+The class is like a gingerbrave cutter and the component is the gingerbrave. In that case, the member variables are the toppings of the gingerbrave, and the methods are what the gingerbrave could do, such us run, walk or be eaten. 
 
 ## Open-Source Assets
 ### W1
