@@ -17,6 +17,9 @@ Write your W1 activity Devlog here.
 #### Activity 2: 
 The class is like a gingerbrave cutter and the component is the gingerbrave. In that case, the member variables are the toppings of the gingerbrave, and the methods are what the gingerbrave could do, such us run, walk or be eaten. 
 
+#### Activity 3:
+1) The ball get extremely bright because everytime it bounces, cthe color get brighter, and its speed constantly multipled so the color get isanely bright. 
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
