@@ -18,7 +18,12 @@ Write your W1 activity Devlog here.
 The class is like a gingerbrave cutter and the component is the gingerbrave. In that case, the member variables are the toppings of the gingerbrave, and the methods are what the gingerbrave could do, such us run, walk or be eaten. 
 
 #### Activity 3:
-1) The ball get extremely bright because everytime it bounces, cthe color get brighter, and its speed constantly multipled so the color get isanely bright. 
+1) The ball get extremely bright because everytime it bounces, cthe color get brighter, and its speed constantly multipled so the color get isanely bright.
+
+### W4
+Table #8, Partner: Yingjie Wang
+1) I added the rigidbody for the cat and the ball because those two need to physical interact with each other. Meanwhile, the goal does not need one because it is only a zone for a ball to go in to trigger the goal. 
+2) At first, the cat keep falling and rolling around because I did not constrain the axises. 
 
 ## Open-Source Assets
 ### W1
