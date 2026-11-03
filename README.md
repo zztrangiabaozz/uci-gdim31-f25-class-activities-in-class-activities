@@ -25,6 +25,11 @@ Table #8, Partner: Yingjie Wang
 1) I added the rigidbody for the cat and the ball because those two need to physical interact with each other. Meanwhile, the goal does not need one because it is only a zone for a ball to go in to trigger the goal. 
 2) At first, the cat keep falling and rolling around because I did not constrain the axises. 
 
+### W5-6
+1) The script needs a Transform varibel "_target" to store the GameObject that the deer will walk toward. I will use "[SerializedField] so I can choose the target in the Unity Inspector. A NavMeshAgent variable called _agent to control the deer's movement.
+2) I will use Unity's Start(), GetComponent<NavMeshAgent>(), SetDestination(). 
+3) The Start() method should get the Deer GameObject's NavMeshAgent component using GetComponent<NavMeshAgent>(). It should then use SetDestination() to tell the deer to walk toward the target GameObject (the red mushroom) when the game starts.
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
