@@ -32,6 +32,8 @@ public class CatW5 : MonoBehaviour
         //      Should I modify translation with Vector addition, or multiplication,
         //          or both?
         //
+        Vector3 translation = Vector3.forward * Input.GetAxis("Vertical") * _moveSpeed * Time.deltaTime;
+
         // STEP 2
         // After Step 1 is working, add more code to make it possible to flip
         //      the player's control scheme.
@@ -43,7 +45,11 @@ public class CatW5 : MonoBehaviour
         //
         // MULTIPLY one of your vectors with a certain value to do this. >:)
 
-        Vector3 translation = Vector3.zero;
+        if (_flipWSControls)
+        {
+            translation *= -1;
+        }
+        transform.Translate(translation);
         
 
 
