@@ -30,6 +30,9 @@ Table #8, Partner: Yingjie Wang
 2) I will use Unity's Start(), GetComponent<NavMeshAgent>(), SetDestination(). 
 3) The Start() method should get the Deer GameObject's NavMeshAgent component using GetComponent<NavMeshAgent>(). It should then use SetDestination() to tell the deer to walk toward the target GameObject (the red mushroom) when the game starts.
 
+### W7
+https://docs.google.com/document/d/12l7FHfmPBRSnvi6Jb-3WfliCk0vT8dCjRlWnLtkU3Pc/edit?usp=sharing
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
